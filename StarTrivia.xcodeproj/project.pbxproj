@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C150DC224D93CE104F1420B /* Pods_StarTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2881565D7BE67BC79E459766 /* Pods_StarTrivia.framework */; };
 		CD04AEE323FDA8DC00B84848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04AEE223FDA8DC00B84848 /* AppDelegate.swift */; };
 		CD04AEE523FDA8DC00B84848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04AEE423FDA8DC00B84848 /* SceneDelegate.swift */; };
-		CD04AEE723FDA8DC00B84848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04AEE623FDA8DC00B84848 /* ViewController.swift */; };
 		CD04AEEA23FDA8DC00B84848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD04AEE823FDA8DC00B84848 /* Main.storyboard */; };
 		CD04AEEC23FDA8DE00B84848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD04AEEB23FDA8DE00B84848 /* Assets.xcassets */; };
 		CD04AEEF23FDA8DE00B84848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD04AEED23FDA8DE00B84848 /* LaunchScreen.storyboard */; };
+		CD148EDD241AB29400BA9D33 /* BlackBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD148EDC241AB29400BA9D33 /* BlackBackground.swift */; };
+		CD148EE0241AB4B400BA9D33 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD148EDF241AB4B400BA9D33 /* Constants.swift */; };
+		CD558D66241C074B00A95029 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD558D65241C074B00A95029 /* PersonApi.swift */; };
+		CD558D68241C143B00A95029 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD558D67241C143B00A95029 /* Person.swift */; };
+		CDE9CF66241AAB0100008EEB /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDE9CF63241AAB0100008EEB /* Starjedi.ttf */; };
+		CDE9CF67241AAB0100008EEB /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDE9CF64241AAB0100008EEB /* Starjhol.ttf */; };
+		CDE9CF68241AAB0100008EEB /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDE9CF65241AAB0100008EEB /* Starjout.ttf */; };
+		CDE9CF6A241AB0A300008EEB /* SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9CF69241AB0A300008EEB /* SelectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2881565D7BE67BC79E459766 /* Pods_StarTrivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTrivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E07D855DACA880F0C92B711 /* Pods-StarTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.release.xcconfig"; path = "Target Support Files/Pods-StarTrivia/Pods-StarTrivia.release.xcconfig"; sourceTree = "<group>"; };
+		7FD5BB12B245740BFB2F4E39 /* Pods-StarTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.debug.xcconfig"; path = "Target Support Files/Pods-StarTrivia/Pods-StarTrivia.debug.xcconfig"; sourceTree = "<group>"; };
 		CD04AEDF23FDA8DC00B84848 /* StarTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD04AEE223FDA8DC00B84848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD04AEE423FDA8DC00B84848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD04AEE623FDA8DC00B84848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD04AEE923FDA8DC00B84848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD04AEEB23FDA8DE00B84848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD04AEEE23FDA8DE00B84848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD04AEF023FDA8DE00B84848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD148EDC241AB29400BA9D33 /* BlackBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBackground.swift; sourceTree = "<group>"; };
+		CD148EDF241AB4B400BA9D33 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD558D65241C074B00A95029 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		CD558D67241C143B00A95029 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CDE9CF63241AAB0100008EEB /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		CDE9CF64241AAB0100008EEB /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		CDE9CF65241AAB0100008EEB /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		CDE9CF69241AB0A300008EEB /* SelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C150DC224D93CE104F1420B /* Pods_StarTrivia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41DB4D5B57710AA897CB7127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2881565D7BE67BC79E459766 /* Pods_StarTrivia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC75F572DBEE2A687355D54C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FD5BB12B245740BFB2F4E39 /* Pods-StarTrivia.debug.xcconfig */,
+				5E07D855DACA880F0C92B711 /* Pods-StarTrivia.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD04AED623FDA8DC00B84848 = {
 			isa = PBXGroup;
 			children = (
 				CD04AEE123FDA8DC00B84848 /* StarTrivia */,
 				CD04AEE023FDA8DC00B84848 /* Products */,
+				AC75F572DBEE2A687355D54C /* Pods */,
+				41DB4D5B57710AA897CB7127 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,78 @@
 		CD04AEE123FDA8DC00B84848 /* StarTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				CDE9CF61241AAADC00008EEB /* Resources */,
+				CDE9CF5A241AA8A900008EEB /* Services */,
+				CD148EDE241AB49E00BA9D33 /* Utils */,
+				CD04AEF823FDACDE00B84848 /* Controller */,
+				CD04AEF723FDACD700B84848 /* View */,
+				CD04AEF623FDACCB00B84848 /* Model */,
 				CD04AEE223FDA8DC00B84848 /* AppDelegate.swift */,
 				CD04AEE423FDA8DC00B84848 /* SceneDelegate.swift */,
-				CD04AEE623FDA8DC00B84848 /* ViewController.swift */,
 				CD04AEE823FDA8DC00B84848 /* Main.storyboard */,
 				CD04AEEB23FDA8DE00B84848 /* Assets.xcassets */,
 				CD04AEED23FDA8DE00B84848 /* LaunchScreen.storyboard */,
 				CD04AEF023FDA8DE00B84848 /* Info.plist */,
 			);
 			path = StarTrivia;
+			sourceTree = "<group>";
+		};
+		CD04AEF623FDACCB00B84848 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD558D67241C143B00A95029 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD04AEF723FDACD700B84848 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD148EDC241AB29400BA9D33 /* BlackBackground.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD04AEF823FDACDE00B84848 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9CF69241AB0A300008EEB /* SelectionVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD148EDE241AB49E00BA9D33 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CD148EDF241AB4B400BA9D33 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CDE9CF5A241AA8A900008EEB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD558D65241C074B00A95029 /* PersonApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CDE9CF61241AAADC00008EEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9CF62241AAAE300008EEB /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDE9CF62241AAAE300008EEB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9CF63241AAB0100008EEB /* Starjedi.ttf */,
+				CDE9CF64241AAB0100008EEB /* Starjhol.ttf */,
+				CDE9CF65241AAB0100008EEB /* Starjout.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD04AEF323FDA8DE00B84848 /* Build configuration list for PBXNativeTarget "StarTrivia" */;
 			buildPhases = (
+				35F44EDBB6C1ED8C17E23C82 /* [CP] Check Pods Manifest.lock */,
 				CD04AEDB23FDA8DC00B84848 /* Sources */,
 				CD04AEDC23FDA8DC00B84848 /* Frameworks */,
 				CD04AEDD23FDA8DC00B84848 /* Resources */,
+				BC74D382D260925CA6B7070E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +231,69 @@
 			files = (
 				CD04AEEF23FDA8DE00B84848 /* LaunchScreen.storyboard in Resources */,
 				CD04AEEC23FDA8DE00B84848 /* Assets.xcassets in Resources */,
+				CDE9CF66241AAB0100008EEB /* Starjedi.ttf in Resources */,
+				CDE9CF67241AAB0100008EEB /* Starjhol.ttf in Resources */,
+				CDE9CF68241AAB0100008EEB /* Starjout.ttf in Resources */,
 				CD04AEEA23FDA8DC00B84848 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35F44EDBB6C1ED8C17E23C82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarTrivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC74D382D260925CA6B7070E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD04AEDB23FDA8DC00B84848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD04AEE723FDA8DC00B84848 /* ViewController.swift in Sources */,
+				CD148EE0241AB4B400BA9D33 /* Constants.swift in Sources */,
+				CD558D66241C074B00A95029 /* PersonApi.swift in Sources */,
 				CD04AEE323FDA8DC00B84848 /* AppDelegate.swift in Sources */,
+				CD148EDD241AB29400BA9D33 /* BlackBackground.swift in Sources */,
+				CD558D68241C143B00A95029 /* Person.swift in Sources */,
 				CD04AEE523FDA8DC00B84848 /* SceneDelegate.swift in Sources */,
+				CDE9CF6A241AB0A300008EEB /* SelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +435,11 @@
 		};
 		CD04AEF423FDA8DE00B84848 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD5BB12B245740BFB2F4E39 /* Pods-StarTrivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9YKLAHM35;
 				INFOPLIST_FILE = StarTrivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +454,11 @@
 		};
 		CD04AEF523FDA8DE00B84848 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E07D855DACA880F0C92B711 /* Pods-StarTrivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9YKLAHM35;
 				INFOPLIST_FILE = StarTrivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
